@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(./img/banner/1.webp) center top -50px/985px repeat-x,#002429;
+}
+nav,
+footer{
+    background-color: #001c20;
+}
+
+.blog .main-box-1 .col-span-4,
+.blog .main-box-2 .col-span-4,
+.blog .link .images,
+.blog .main-box-3 .col-span-4{
+    transition: transform 0.2s;
+}
+.blog .main-box-1 .col-span-4:hover,
+.blog .main-box-2 .col-span-4:hover,
+.blog .link .images:hover,
+.blog .main-box-3 .col-span-4:hover{
+    transform: scale(1.05);
+}
